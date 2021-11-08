@@ -18,10 +18,29 @@
         display: none;
     }
     .top-bar-wrap .mobile {
-        text-align: center;
+        text-align: start;
+    }
+    .top-bar-wrap .mail {
+        text-align: start;
+    }
+    /* top banner design  */
+    .top-banner h1 {
+        font-size: 1.875rem;
     }
     /* section-2 Featured section  */
     .feature-section .box-cls {
         margin-left: 3rem;
+    }
+    /* about section  */
+    .about-section h4 {
+        font-size: 0.875rem;
+    }
+    .about-section p {
+        font-size: 0.775rem;
+    }
+    /* footer  */
+    .footer .bizland {
+        margin: 0 auto;
+        text-align: center;
     }
 }
