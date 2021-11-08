@@ -1,0 +1,27 @@
+@media all and (min-width: 992px) {
+    /* navbar design  */
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    /* .navbar .nav-item:hover .nav-link {}  */
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    /* top bar design  */
+    .top-bar-wrap .icon-group {
+        display: none;
+    }
+    .top-bar-wrap .mobile {
+        text-align: center;
+    }
+    /* section-2 Featured section  */
+    .feature-section .box-cls {
+        margin-left: 3rem;
+    }
+}
